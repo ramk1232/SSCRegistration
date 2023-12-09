@@ -14,7 +14,7 @@ public class TestScript extends BaseClass {
         testID = 1090;
         logIn = new LoginPage(driver);
         boolean flag = logIn.imgLogo75();
-        Assert.assertFalse(flag);
+        Assert.assertTrue(flag);
     }
    // New
 }
