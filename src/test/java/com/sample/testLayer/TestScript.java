@@ -16,4 +16,5 @@ public class TestScript extends BaseClass {
         boolean flag = logIn.imgLogo75();
         Assert.assertFalse(flag);
     }
+   // New
 }
